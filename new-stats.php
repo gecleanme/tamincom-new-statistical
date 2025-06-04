@@ -12,6 +12,15 @@ namespace TamincomStats;
 
 date_default_timezone_set('Asia/Amman');
 
+// Prevent direct access
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+define('TAMINCOM_STATS_VERSION', '2.2.0');
+define('TAMINCOM_STATS_PLUGIN_DIR', plugin_dir_path(__FILE__));
+define('TAMINCOM_STATS_PLUGIN_URL', plugin_dir_url(__FILE__));
+
 /**
  * Main plugin class
  */
