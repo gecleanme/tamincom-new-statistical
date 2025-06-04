@@ -74,9 +74,10 @@ class StatisticalModule {
     public function render_admin_page() {
         if (isset($_GET['force_refresh'])) {
             delete_transient($this->transient_key);
-            
-            echo '<div class="notice notice-success is-dismissible"><p>تم تحديث البيانات بنجاح.</p></div>';
-        }
+
+            echo '<div class="notice notice-success is-dismissible"><p>' .
+                esc_html('تم تحديث البيانات بنجاح.') .
+                '</p></div>';        }
 
         echo $this->render_stats();
     }
@@ -628,8 +629,12 @@ class StatisticalModule {
         foreach ($data as $key => $value) {
             $$key = $value;
         }
-        
-        include dirname(__FILE__) . '/templates/' . $template;
+
+        $template_path = TAMINCOM_STATS_PLUGIN_DIR . '/templates/' . $template;
+
+        if (file_exists($template_path)) {
+            include $template_path;
+        }
     }
 
     /**
