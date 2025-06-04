@@ -604,13 +604,23 @@ class StatisticalModule {
             // Cache the data
             set_transient($this->transient_key, $stats_data, $this->cache_expiration);
         }
-
-        // Send vars to template
-        extract($stats_data);
-
         ob_start();
-        include dirname(__FILE__) . '/templates/statistics-template.php';
+        $this->render_template('statistics-template.php', $stats_data);
         return ob_get_clean();
+    }
+
+    /**
+     * Render a template with provided data
+     *
+     * @param string $template Template file name
+     * @param array $data Data to pass to the template
+     */
+    private function render_template($template, $data) {
+        foreach ($data as $key => $value) {
+            $$key = $value;
+        }
+        
+        include dirname(__FILE__) . '/templates/' . $template;
     }
 
     /**
