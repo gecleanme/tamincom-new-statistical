@@ -257,7 +257,7 @@
                                 </div>
                             </div>
                             <div class="text-right">
-                                <a href='/wp-admin/edit.php?s&post_status=all&post_type=client&m=0&layout=5fb407e0e49b5&acp_filter%5B5cbc513589de9%5D=hi&filter_action=تصفية&action=-1&paged=1&action2=-1'
+                                <a href='<?php echo admin_url('edit.php?s&post_status=all&post_type=client&m=0&layout=5fb407e0e49b5&acp_filter%5B5cbc513589de9%5D=hi&filter_action=تصفية&action=-1&paged=1&action2=-1'); ?>'
                                    target="_blank"><span>استعراض التفاصيل</span></a>
                             </div>
                         </div>
@@ -325,7 +325,7 @@
                                     <h3 class="warning"> <?php echo "JD ".number_format($contract_data['providers']['me']['pending'], 0, ".",
                                                 ","); ?></h3>
                                     <div style="display:inline;">
-                                        <a href='/wp-admin/edit.php?s&post_status=all&post_type=contract&ac-rules={"condition"%3A"AND"%2C"rules"%3A[{"id"%3A"5cdeb82646c69"%2C"field"%3A"5cdeb82646c69"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"not_equal"%2C"value"%3A"نعم"}%2C{"id"%3A"5ccaaff5850ec"%2C"field"%3A"5ccaaff5850ec"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"equal"%2C"value"%3A"الشرق+الأوسط"}]%2C"valid"%3Atrue}&m=0&layout=5fb407e0e4987&filter_action=تصفية&action=-1&paged=1&action2=-1'
+                                        <a href='<?php echo admin_url('edit.php?s&post_status=all&post_type=contract&ac-rules={"condition"%3A"AND"%2C"rules"%3A[{"id"%3A"5cdeb82646c69"%2C"field"%3A"5cdeb82646c69"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"not_equal"%2C"value"%3A"نعم"}%2C{"id"%3A"5ccaaff5850ec"%2C"field"%3A"5ccaaff5850ec"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"equal"%2C"value"%3A"الشرق+الأوسط"}]%2C"valid"%3Atrue}&m=0&layout=5fb407e0e4987&filter_action=تصفية&action=-1&paged=1&action2=-1'); ?>'
                                            target="_blank"><span>استعراض التفاصيل</span></a>
                                     </div>
                                     <hr>
@@ -339,7 +339,7 @@
                                     <h3 class="warning"> <?php echo "JD ".number_format($contract_data['providers']['ae']['pending'], 0, ".",
                                                 ","); ?></h3>
                                     <div style="display:inline;">
-                                        <a href='/wp-admin/edit.php?s&post_status=all&post_type=contract&ac-rules={"condition"%3A"AND"%2C"rules"%3A[{"id"%3A"5cdeb82646c69"%2C"field"%3A"5cdeb82646c69"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"not_equal"%2C"value"%3A"نعم"}%2C{"id"%3A"5ccaaff5850ec"%2C"field"%3A"5ccaaff5850ec"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"equal"%2C"value"%3A"العربية+الاوروبية"}]%2C"valid"%3Atrue}&m=0&layout=5fb407e0e4987&filter_action=تصفية&action=-1&paged=1&action2=-1'
+                                        <a href='<?php echo admin_url('edit.php?s&post_status=all&post_type=contract&ac-rules={"condition"%3A"AND"%2C"rules"%3A[{"id"%3A"5cdeb82646c69"%2C"field"%3A"5cdeb82646c69"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"not_equal"%2C"value"%3A"نعم"}%2C{"id"%3A"5ccaaff5850ec"%2C"field"%3A"5ccaaff5850ec"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"equal"%2C"value"%3A"العربية+الاوروبية"}]%2C"valid"%3Atrue}&m=0&layout=5fb407e0e4987&filter_action=تصفية&action=-1&paged=1&action2=-1'); ?>'
                                            target="_blank"><span>استعراض التفاصيل</span></a>
                                     </div>
                                     <hr>
@@ -353,7 +353,7 @@
                                     <h3 class="warning"> <?php echo "JD ".number_format($contract_data['providers']['qds']['pending'], 0, ".",
                                                 ","); ?></h3>
                                     <div style="display:inline;">
-                                        <a href='/wp-admin/edit.php?s&post_status=all&post_type=contract&ac-rules={"condition"%3A"AND"%2C"rules"%3A[{"id"%3A"5cdeb82646c69"%2C"field"%3A"5cdeb82646c69"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"not_equal"%2C"value"%3A"نعم"}%2C{"id"%3A"5ccaaff5850ec"%2C"field"%3A"5ccaaff5850ec"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"equal"%2C"value"%3A"القدس"}]%2C"valid"%3Atrue}&m=0&layout=5fb407e0e4987&filter_action=تصفية&action=-1&paged=1&action2=-1'
+                                        <a href='<?php echo admin_url('edit.php?s&post_status=all&post_type=contract&ac-rules={"condition"%3A"AND"%2C"rules"%3A[{"id"%3A"5cdeb82646c69"%2C"field"%3A"5cdeb82646c69"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"not_equal"%2C"value"%3A"نعم"}%2C{"id"%3A"5ccaaff5850ec"%2C"field"%3A"5ccaaff5850ec"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"equal"%2C"value"%3A"القدس"}]%2C"valid"%3Atrue}&m=0&layout=5fb407e0e4987&filter_action=تصفية&action=-1&paged=1&action2=-1'); ?>'
                                            target="_blank"><span>استعراض التفاصيل</span></a>
                                     </div>
                                     <hr>
@@ -368,7 +368,7 @@
                                                 ","); ?></h3>
 
                                     <div style="display:inline;">
-                                        <a href='/wp-admin/edit.php?s&post_status=all&post_type=contract&ac-rules={"condition"%3A"AND"%2C"rules"%3A[{"id"%3A"5cdeb82646c69"%2C"field"%3A"5cdeb82646c69"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"not_equal"%2C"value"%3A"نعم"}%2C{"id"%3A"5ccaaff5850ec"%2C"field"%3A"5ccaaff5850ec"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"equal"%2C"value"%3A"العرب+للتأمين"}]%2C"valid"%3Atrue}&m=0&layout=5fb407e0e4987&filter_action=تصفية&action=-1&paged=1&action2=-1'
+                                        <a href='<?php echo admin_url('edit.php?s&post_status=all&post_type=contract&ac-rules={"condition"%3A"AND"%2C"rules"%3A[{"id"%3A"5cdeb82646c69"%2C"field"%3A"5cdeb82646c69"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"not_equal"%2C"value"%3A"نعم"}%2C{"id"%3A"5ccaaff5850ec"%2C"field"%3A"5ccaaff5850ec"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"equal"%2C"value"%3A"العرب+للتأمين"}]%2C"valid"%3Atrue}&m=0&layout=5fb407e0e4987&filter_action=تصفية&action=-1&paged=1&action2=-1'); ?>'
                                            target="_blank"><span>استعراض التفاصيل</span></a>
                                     </div>
                                     <hr>
@@ -383,7 +383,7 @@
                                     <h3 class="warning"> <?php echo "JD ".number_format($contract_data['providers']['sld']['pending'], 0, ".",
                                                 ","); ?></h3>
                                     <div style="display:inline;">
-                                        <a href='/wp-admin/edit.php?post_status=all&post_type=contract&ac-rules={"condition"%3A"AND"%2C"rules"%3A[{"id"%3A"5cdeb82646c69"%2C"field"%3A"5cdeb82646c69"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"not_equal"%2C"value"%3A"نعم"}%2C{"id"%3A"5ccaaff5850ec"%2C"field"%3A"5ccaaff5850ec"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"equal"%2C"value"%3A"الأولى+للتأمين"}]%2C"valid"%3Atrue}&m=0&layout=5fb407e0e4987&filter_action=تصفية&paged=1'
+                                        <a href='<?php echo admin_url('edit.php?post_status=all&post_type=contract&ac-rules={"condition"%3A"AND"%2C"rules"%3A[{"id"%3A"5cdeb82646c69"%2C"field"%3A"5cdeb82646c69"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"not_equal"%2C"value"%3A"نعم"}%2C{"id"%3A"5ccaaff5850ec"%2C"field"%3A"5ccaaff5850ec"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"equal"%2C"value"%3A"الأولى+للتأمين"}]%2C"valid"%3Atrue}&m=0&layout=5fb407e0e4987&filter_action=تصفية&paged=1'); ?>'
                                            target="_blank"><span>استعراض التفاصيل</span></a>
                                     </div>
                                     <hr>
@@ -399,7 +399,7 @@
                                                 ","); ?></h3>
 
                                     <div style="display:inline;">
-                                        <a href='/wp-admin/edit.php?post_status=all&post_type=contract&ac-rules={"condition"%3A"AND"%2C"rules"%3A[{"id"%3A"5cdeb82646c69"%2C"field"%3A"5cdeb82646c69"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"not_equal"%2C"value"%3A"نعم"}%2C{"id"%3A"5ccaaff5850ec"%2C"field"%3A"5ccaaff5850ec"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"equal"%2C"value"%3A"العربية+الأردنية"}]%2C"valid"%3Atrue}&m=0&layout=5fb407e0e4987&filter_action=تصفية&paged=1'
+                                        <a href='<?php echo admin_url('edit.php?post_status=all&post_type=contract&ac-rules={"condition"%3A"AND"%2C"rules"%3A[{"id"%3A"5cdeb82646c69"%2C"field"%3A"5cdeb82646c69"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"not_equal"%2C"value"%3A"نعم"}%2C{"id"%3A"5ccaaff5850ec"%2C"field"%3A"5ccaaff5850ec"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"equal"%2C"value"%3A"العربية+الأردنية"}]%2C"valid"%3Atrue}&m=0&layout=5fb407e0e4987&filter_action=تصفية&paged=1'); ?>'
                                            target="_blank"><span>استعراض التفاصيل</span></a>
                                     </div>
 
@@ -416,7 +416,7 @@
                                                 ","); ?></h3>
 
                                     <div style="display:inline;">
-                                        <a href='/wp-admin/edit.php?orderby=610d0784c75b1&order=asc&s&post_status=all&post_type=contract&ac-rules=%7B"condition"%3A"AND"%2C"rules"%3A%5B%7B"id"%3A"5cdeb82646c69"%2C"field"%3A"5cdeb82646c69"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"not_equal"%2C"value"%3A"نعم"%7D%2C%7B"id"%3A"5ccaaff5850ec"%2C"field"%3A"5ccaaff5850ec"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"equal"%2C"value"%3A"المتوسط+والخليج+للتأمين"%7D%5D%2C"valid"%3Atrue%7D&m=0&layout=5fb407e0e4987&filter_action=Filter&action=-1&paged=1&action2=-1'
+                                        <a href='<?php echo admin_url('edit.php?orderby=610d0784c75b1&order=asc&s&post_status=all&post_type=contract&ac-rules=%7B"condition"%3A"AND"%2C"rules"%3A%5B%7B"id"%3A"5cdeb82646c69"%2C"field"%3A"5cdeb82646c69"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"not_equal"%2C"value"%3A"نعم"%7D%2C%7B"id"%3A"5ccaaff5850ec"%2C"field"%3A"5ccaaff5850ec"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"equal"%2C"value"%3A"المتوسط+والخليج+للتأمين"%7D%5D%2C"valid"%3Atrue%7D&m=0&layout=5fb407e0e4987&filter_action=Filter&action=-1&paged=1&action2=-1'); ?>'
                                            target="_blank"><span>استعراض التفاصيل</span></a>
                                     </div>
 
@@ -431,7 +431,7 @@
                                     <h3 class="warning"> <?php echo "JD ".number_format($contract_data['providers']['mnr']['pending'], 0, ".",
                                                 ","); ?></h3>
                                     <div style="display:inline;">
-                                        <a href='/wp-admin/edit.php?s&post_status=all&post_type=contract&ac-rules={"condition"%3A"AND"%2C"rules"%3A[{"id"%3A"5cdeb82646c69"%2C"field"%3A"5cdeb82646c69"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"not_equal"%2C"value"%3A"نعم"}%2C{"id"%3A"5ccaaff5850ec"%2C"field"%3A"5ccaaff5850ec"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"equal"%2C"value"%3A"المنارة الإسلامية"}]%2C"valid"%3Atrue}&m=0&layout=5fb407e0e4987&filter_action=تصفية&action=-1&paged=1&action2=-1'
+                                        <a href='<?php echo admin_url('edit.php?s&post_status=all&post_type=contract&ac-rules={"condition"%3A"AND"%2C"rules"%3A[{"id"%3A"5cdeb82646c69"%2C"field"%3A"5cdeb82646c69"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"not_equal"%2C"value"%3A"نعم"}%2C{"id"%3A"5ccaaff5850ec"%2C"field"%3A"5ccaaff5850ec"%2C"type"%3A"string"%2C"input"%3A"text"%2C"operator"%3A"equal"%2C"value"%3A"المنارة الإسلامية"}]%2C"valid"%3Atrue}&m=0&layout=5fb407e0e4987&filter_action=تصفية&action=-1&paged=1&action2=-1'); ?>'
                                            target="_blank"><span>استعراض التفاصيل</span></a>
                                     </div>
 
